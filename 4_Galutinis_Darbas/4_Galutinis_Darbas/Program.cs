@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace _4_Galutinis_Darbas
 {
     //asdasdasdsad
+    //asdasdasdasd
     public class Program
     {
         public static void Main(string[] args)
