@@ -21,9 +21,9 @@ namespace _4_Galutinis_Darbas.Controller
         }
 
         // GET: api/Path/5
-        public JObject Get(string id, string id2)
+        public JObject Get(string pav, string pav2)
         {
-            var client = new RestClient("https://imdb8.p.rapidapi.com/title/get-details?tconst=" + id);
+            var client = new RestClient("https://www.mapquestapi.com/directions/v2/route?key=KEY&from=" + pav + "&to=" + pav2 + "&outFormat=json&ambiguities=ignore&routeType=fastest&doReverseGeocode=false&enhancedNarrative=false&avoidTimedConditions=false");
             var request = new RestRequest(Method.GET);
             IRestResponse response = client.Execute(request);
             JObject json = JObject.Parse(response.Content);
