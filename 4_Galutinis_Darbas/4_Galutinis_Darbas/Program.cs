@@ -13,6 +13,7 @@ namespace _4_Galutinis_Darbas
     //asdasdasdasd
     /// <summary>
     /// yay
+    /// // s
     /// </summary>
     public class Program
     {
