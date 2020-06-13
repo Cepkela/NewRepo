@@ -17,5 +17,6 @@ namespace _4_Galutinis_Darbas.Rep
             JObject json = JObject.Parse(response.Content);
             return json;
         }
+       //asdasdsa
     }
 }
