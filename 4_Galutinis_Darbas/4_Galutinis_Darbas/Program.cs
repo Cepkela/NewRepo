@@ -14,6 +14,8 @@ namespace _4_Galutinis_Darbas
     /// <summary>
     /// yay
     /// </summary>
+    ///
+    //asdasd
     public class Program
     {
         public static void Main(string[] args)
