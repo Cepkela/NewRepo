@@ -9,9 +9,9 @@ namespace _4_Galutinis_Darbas.Models
     public class Place
     {
         public string startPoint { get; set; }
-        public int startPointID { get; set; }
+        public string startPointID { get; set; }
         public string endPoint { get; set; }
-        public int endPointID { get; set; }
+        public string endPointID { get; set; }
         public double distance { get; set; }
 
         public ArrayList streets = new ArrayList();
@@ -20,9 +20,13 @@ namespace _4_Galutinis_Darbas.Models
         {
 
         }
-        public Place(string startPoint, string endPoint, string distance)
+        public Place(string startPoint, string endPoint, double distance, string startPointID, string endPointID)
         {
-
+            this.startPoint = startPoint;
+            this.endPoint = endPoint;
+            this.distance = distance;
+            this.startPointID = startPointID;
+            this.endPointID = endPointID;
         }
     }
 }
