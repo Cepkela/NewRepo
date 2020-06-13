@@ -23,11 +23,11 @@ namespace _4_Galutinis_Darbas.Controller
         }
 
         // GET: api/Path/5
-        public JObject Get(string pav, string pav2)
+        public JObject Get(string pav)
         {
             PlaceRep pr = new PlaceRep();
             JObject j = new JObject();
-            j = pr.Action(pav, pav2);
+            j = pr.Action(pav, "Naujamiestis");
             return j;
 
         }
